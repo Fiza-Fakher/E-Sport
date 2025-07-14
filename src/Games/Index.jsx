@@ -1,11 +1,18 @@
 import React from 'react'
+import Hero from '../Games/components/Hero'
+import Games from '../Games/components/Games'
+import Banner1 from '../Games/components/Banner1'
+import Upcoming from '../Games/components/Upcoming'
+import Footer from '../components/Footer'
 
-function Games() {
+function Index() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Hero/>
+       <Games/> <Banner1/><Upcoming/>
+      <Footer/>
+    </>
   )
 }
 
-export default Games
+export default Index

@@ -14,8 +14,8 @@ function Gallery() {
         </div>
         <div className="flex justify-center items-center flex-col">
           <div className="relative">
-            <img src="stream1.png" alt="" className="relative z-0" />
-            <div className="absolute top-120 left-30 z-10">
+            <a href="https://youtu.be/CWOb5HxurO4?si=hvJylmrJrit7_Zg5" target="blank"><img src="stream1.png" alt="" className="relative z-0" /></a>
+            <div className="absolute md:top-120 md:left-30 left-10 top-60 z-10">
               <button className="bg-red-600 h-[35px] w-[75px] text-white font-semibold">
                 Match
               </button>
@@ -24,9 +24,9 @@ function Gallery() {
               </h1>
             </div>
           </div>
-          <div className="flex ">
+          <div className="md:flex md:flex-row flex-col">
             <div className="relative">
-            <img src="stream2.png" alt="" />
+            <a href="https://youtu.be/CWOb5HxurO4?si=hvJylmrJrit7_Zg5" target="blank"><img src="stream2.png" alt="" /></a>
             <div className="absolute top-121 left-20 z-10">
                 <button className="bg-red-600 h-[35px] w-[75px] text-white font-semibold">
                   Match
@@ -36,7 +36,7 @@ function Gallery() {
                 </h1>
               </div></div>
             <div className="relative">
-            <img src="stream3.png" alt="" />
+            <a href="https://youtu.be/CWOb5HxurO4?si=hvJylmrJrit7_Zg5" target="blank"><img src="stream3.png" alt="" /></a>
             <div className="absolute top-121 left-20 z-10">
                 <button className="bg-red-600 h-[35px] w-[75px] text-white font-semibold">
                   Match

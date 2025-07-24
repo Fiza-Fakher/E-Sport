@@ -10,14 +10,14 @@ function Hero() {
       <img
         src="about_bg.jpg"
         alt="Background Image"
-        className="w-full h-[700px]"
+        className="w-full h-[700px] object-cover"
       />
 
       <div className="absolute top-0 left-0 z-10 w-full">
         <Navbar />
         <div className="flex">
           {/* icnons */}
-          <div className="flex flex-col mt-[100px] pl-[30px]">
+          <div className="md:flex md:flex-col mt-[100px] pl-[30px] hidden">
             {icons.map((Icon, index) => (
               <div
                 key={index}

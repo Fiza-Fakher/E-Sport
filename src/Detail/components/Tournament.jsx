@@ -3,7 +3,7 @@ import React from 'react'
 function Tournament() {
   return (
     <>
-      <main className='bg-black text-white flex gap-6 items-center justify-center'>
+      <main className='bg-black text-white flex gap-6 items-center justify-center flex-col md:flex-row pt-8 pb-6'>
 <section>
     <img src="tournament.png" alt="" />
 </section>

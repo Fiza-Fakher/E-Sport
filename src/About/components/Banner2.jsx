@@ -9,8 +9,8 @@ function Banner2() {
     ]
   return (
     <>
-      <main className='bg-yellow-900 flex flex-col  justify-center items-center text-white h-[840px]'>
-        <section className='gap-14 flex '>
+      <main className='bg-yellow-900 flex flex-col  justify-center items-center text-white min-h-[840px] pb-4 pt-2'>
+        <section className='gap-14 flex flex-col md:flex-row'>
         <div>
             <h1 className='flex flex-col text-5xl font-bold'>
                 <span>Play Fun And Enjoy</span>
@@ -41,7 +41,7 @@ function Banner2() {
             <img src="about_img.jpg" alt="" className='h-[550px]' /> </div>
             </section>
         <section>
-            <div className='flex gap-8 mt-28 font-bold'>
+            <div className='flex gap-8 md:mt-28 mt-10 font-bold flex-col md:flex-row'>
 {data.map((items,index)=>(
     <div key={index} className='flex flex-col justify-center items-center mr-[90px]'>
     <h5 className='text-5xl'>{items.numbers}</h5>

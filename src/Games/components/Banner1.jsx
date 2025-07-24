@@ -3,9 +3,10 @@ import React from "react";
 function Banner1() {
   return (
     <>
-      <main className="bg-black text-white flex gap-14 justify-center">
-        <img src="b_img.jpg" alt="" />
+      <main className="bg-black text-white flex gap-14 justify-center flex-col md:flex- pb-4">
         <div>
+        <img src="b_img.jpg" alt="" /></div>
+        <div className="flex justify-center items-center flex-col">
           <h1 className="text-4xl font-bold flex flex-col mt-12">
             <span>Play Any Game Which</span>
             <span className="mt-2">You Want</span>

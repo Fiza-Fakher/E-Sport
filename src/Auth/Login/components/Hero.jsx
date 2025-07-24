@@ -5,7 +5,7 @@ function Hero() {
   return (
     <>
       <main className="bg-black text-white flex justify-center items-center flex-col h-[100vh]">
-        <img src="logo.png" alt="" />
+       <Link to='/'> <img src="logo.png" alt="" /></Link>
         <h1 className="font-bold text-4xl">Welcome Back !</h1>
         <div className="border-red-600 border-2 mt-8 h-[310px] w-[445px] flex flex-col justify-center items-center ">
           <input

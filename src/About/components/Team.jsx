@@ -8,14 +8,14 @@ function Team() {
   ];
   return (
     <>
-      <main className="flex justify-center items-center flex-col bg-black text-white pt-14 h-[200vh]">
+      <main className="flex justify-center items-center flex-col bg-black text-white md:pt-14 min-h-[200vh] pt-4 pb-4">
         <h1 className="font-bold text-5xl">Our Team Members</h1>
         <div className="flex justify-center items-center mt-8">
           <div className="h-[1px] w-[60px] mr-[15px] bg-white"></div>
           <img src="logo.png" alt="" className="w-[50px] h-[60px]" />
           <div className="h-[1px] w-[60px] mr-[15px] bg-white"></div>
         </div>
-        <div className="mt-14 flex gap-14">
+        <div className="mt-14 flex gap-14 flex-col md:flex-row">
   {team.map((items, index) => (
     <div key={index} className="relative ">
       <img src={items.img} alt=""/>
@@ -25,7 +25,7 @@ function Team() {
   ))}
 </div>
 
-        <div className="mt-12 flex gap-14">
+        <div className="mt-12 flex gap-14 flex-col md:flex-row">
           {team.map((items, index) => (
             <div key={index} className="relative">
               <img src={items.img} alt="" />
